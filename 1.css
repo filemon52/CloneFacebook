@@ -1,0 +1,267 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(44, 75, 114);
+ }
+
+.navbar .nav {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 30%;
+}
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  padding: 0;
+  font-weight: 300;
+  line-height: 40px;
+  margin-right: 20px;
+  color: white;
+}
+
+.navbar .nav .item a{
+  margin-top: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar .nav .item img{
+  position: absolute;
+  margin: 8px 0px 0px -30px;
+  width: 20px;
+  height: 20px;  
+}
+
+.navbar .logo img {
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 30px;
+  height: 30px;
+}
+.navbar .logo2 .wrap{
+  width: 30%;
+  position: absolute;
+  top: 44%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar .logo2 .search {
+  width: 100%;
+  position: relative;
+}
+
+.navbar .logo2 .searchTerm {
+  background-color: white;
+  background-image: url(search.jpg); 
+  background-repeat: no-repeat;
+  background-position: 5px 2px;
+  padding: 7px 5px 5px 30px;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+}
+.full {
+  width: 100%;
+  height: 100%;
+ }
+.full .kolom{
+  padding-top: 50px;
+  margin: 0;
+  }
+ .full .kolom .kolom1{
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+ }
+
+.full .kolom .kolom1 .bodykiri {
+  margin-left: 10%;
+ }
+
+.full .kolom .kolom1 .bodykiri .navsamping {
+  top: 0;
+  margin: 0;
+  padding: 0;
+ }
+
+.full .kolom .kolom1 .bodykiri .navsamping .item{
+  margin-top: 10px;
+  list-style: none;
+  font-size: 15px;
+  padding: 0;
+}
+
+.full .kolom .kolom1 .bodykiri .navsamping .item a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.full .kolom .kolom1 .bodykiri .navsamping img {
+  margin-right: 5%; 
+  width: 20px;
+  height: 20px;
+}
+.full .kolom .kolom2{
+  padding-left: 15%;
+  display: inline-block;  
+  width: 40%
+  height: 100%;
+}
+.full .kolom .kolom2 .aktifitas{
+  padding: 0px 5px 5px 0px;
+  box-shadow: 0px 0px 0px 2px;
+  border-radius: 10px; 
+}
+.full .kolom .kolom2 .aktifitas .kolom{
+  margin: 10px 0px 0px 10px;
+  padding: 10px;
+}
+.full .kolom .kolom2 .aktifitas .kolom .item{
+display: inline-block;
+margin-left: 5px;
+margin-right: 5px;
+}
+.full .kolom .kolom2 .aktifitas .kolom .item a{
+  text-decoration: none;
+  color: inherit; 
+}
+.full .kolom .kolom2 .aktifitas .kolom .item img {
+  width: 10px;
+  height: 10px; 
+}
+.full .kolom .kolom2 .aktifitas .isi .items{
+display: inline-block;
+margin: 0px 0px 10px 10px;
+}
+.full .kolom .kolom2 .aktifitas .isi .items .input{
+  font-size: 15px;
+  width: 200%;
+  height: 25px;
+}
+.full .kolom .kolom2 .aktifitas .isi .items img{
+  width: 40px;
+  height: 40px; 
+}
+.full .kolom .kolom2 .aktifitas .menu .item{
+  display: inline-block;
+  box-shadow: 0 0 0 2px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+.full .kolom .kolom2 .aktifitas .item a{
+  text-decoration: none;
+  color: inherit; 
+}
+.full .kolom .kolom2 .aktifitas .item img{
+  width: 20px;
+  height: 20px; 
+}
+.full .kolom .kolom2 .konten{
+  padding: 0px 5px 5px 0px;
+  box-shadow: 0px 0px 0px 2px; 
+}
+.full .kolom .kolom2 .konten .isi{
+  margin: 10px 0px 0px 10px;
+  padding: 10px;
+}
+.full .kolom .kolom2 .konten .isi .kontenkonten{
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+}
+.full .kolom .kolom2 .konten .isi .kontenkonten img{
+  width: 40px;
+  height: 40px;
+}
+.full .kolom .kolom2 .konten .isi img{
+  width: 500px;  
+  height: 300px;
+}
+.full .kolom .kolom2 .konten .komen .item{
+  padding: 10px 10px 10px 10px;
+  margin:10px 10px 10px 10px;
+  display: inline-block;
+}
+.full .kolom .kolom2 .konten .komen img{
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+.full .kolom .kolom3{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+ }
+.full .kolom .kolom3 .sideinfo {
+  margin: 10px 10px 10px 10px;
+}
+.full .kolom .kolom3 .sideinfo .info {
+ display: block; 
+}
+.full .kolom .kolom3 .sideinfo .info .item {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px; 
+  font-size: 15px;
+  box-shadow: 0 0 0 2px;
+  border-radius: 10px;   
+  }
+  .full .kolom .kolom3 .sideinfo .info .item img {
+  width: 20px;
+  height: 20px;
+  }
+.full .kolom .kolom4 {
+  margin-left: 20%;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  position: fixed;
+  background-color: gray;
+ }
+.full .kolom .kolom4 .chat {
+}
+.full .kolom .kolom4 .chat .daftar .item {
+  box-shadow: 0 0 5px 0;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px; 
+  font-size: 15px;
+  display: block; 
+}
+.full .kolom .kolom4 .chat .daftar .item a{
+  text-decoration: none;
+  color: inherit;
+}
+.full .kolom .kolom4 .chat .daftar .item img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
